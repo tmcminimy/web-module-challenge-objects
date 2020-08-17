@@ -85,10 +85,8 @@ and should return a string in the format `{name} gave the restaurant a {rating},
  * it will return `Daniela gave the restaurant a 5 star review and their feedback was: Beautiful atmosphere and wonderful vegan options!`
 */
 function getReviewByIndex(reviews, index){
-    if(reviews[index] = index);{
-      return `${reviews[index].name} gave the restaurant a ${reviews.rating} star review, and their feedback was: ${reviews.feedback}`;
+      return `${reviews[index].name} gave the restaurant a ${reviews[index].rating} star review, and their feedback was: ${reviews[index].feedback}`;
       }
-    }
   console.log(getReviewByIndex(reviews, 3));
   
 
